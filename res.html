@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div.gallery{
+        border: 3px solid rgb(7, 0, 0);
+    }
+    div.gallery:hover{
+        border: 3px solid rgb(240, 13, 13);
+    }
+    div.gallery.img{
+        width: 200px;
+        height: 200px;
+    }
+    div.desc{
+        padding: 20px;
+        text-align: center;
+    }
+    div.responsive{
+        padding: 2px;
+        float: left;
+        
+    }
+    @media only screen and(max-width:700px) {
+        .responsive{
+
+        }
+    }
+     @media only screen and (max-width: 500px) {
+         .responsive {
+              
+  }
+}
+        
+    
+</style>
+<body>
+    <h2>Responsive image gallery</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="th (16).jpg">
+                <img src="th (16).jpg" alt="forest" height="300px" width="300px">
+                </a>
+                <div class="desc">Add description of image</div>
+            
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="th (17).jpg">
+                <img src="th (17).jpg" alt="sea" height="300px" width="300px">
+                </a>
+                <div class="desc">Add description of image</div> 
+             
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <a target="_blank" href="th (20).jpg">
+                <img src="th (20).jpg" alt="waterfall" height="300px" width="300px">
+                </a>
+                <div class="desc">Add description of image</div>
+            
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+                <a target="_blank" href="th (210.jpg">
+                <img src="th (210.jpg" alt="mountain" height="300px" width="300px">
+                </a>
+                <div class="desc">Add description of image</div>
+            
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    
+</body>
+</html>
