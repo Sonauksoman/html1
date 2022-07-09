@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=button] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;j
+input[type=button]:hover{
+    background-color: #4CAF50;
+}
+div{
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  
+    font-size: 16px;
+    resize: none;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+    
+</style>
+<body>
+    <form>
+    <h1>REGISTRATION FORM</h1>
+        
+            <div>
+            <label><br>Name:</label>
+            <input type="text" name="first name" placeholder="Enter name"/><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Other">Others
+            <br><br>
+            <label>Address:</label>
+            <textarea> enter address:</textarea>
+            <label> Mobile number:</label>
+            <input type="text" name="mobile number"placeholder="123"/><br><br>
+            <label>DOB:</label>
+            <input type="date" name="dob"/><br><br>
+            <label>Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter email"/><br><br>
+            <label>Qualification:</label>
+            <input type="checkbox" name="Qualification" value="SSLC">SSLC
+            <input type="checkbox" name="Qualification" value="PLUS TWO">PLUS TWO
+            <input type="checkbox" name="Qualification" value="GRADUATION">GRADUATION
+            <input type="checkbox" name="Qualification" value="POST GRADUATION">POST GRADUATION <br><br>
+            
+            <label>District:</label>
+            <select>
+                <option>Calicut</option>
+                <option>Malapuram</option>
+                <option>Wayanad</option>
+            </select><br><br>
+            <label>Upload photo:</label>
+            <input type="file" name="photo"><br><br>
+            <input type="button" value="submit">
+
+
+            </div>
+    </form>
+    
+</body>
+</html>
